@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@media only screen and (min-width:1px){
+ 
+    .Hero-main{
+        background: #e84242 ;
+       height: 100%;
+    }
+    .hero-head{
+        color: #F5E7C1;
+    }
+    .v-line{
+        border-left:dotted 5px #EB5A5A;
+        height: 3em;
+        margin: 5px 2.5em;
+    }
+}
