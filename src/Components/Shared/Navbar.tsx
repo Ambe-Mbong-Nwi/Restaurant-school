@@ -27,10 +27,10 @@ const Navbar = () => {
           </article>
           <article className="navlinks flex  flex-[70%]
            justify-evenly  pt-[1em] text-[black] font-900  ">  
-          <div className="navlink">HOME</div>
-          <div className="navlink">BLOG</div>
-          <div className="navlink">BLOG</div>
-          <div className="navlink">SHOP</div>
+          <div className="navlink cursor-pointer ">HOME</div>
+          <div className="navlink cursor-pointer">BLOG</div>
+          <div className="navlink cursor-pointer">BLOG</div>
+          <div className="navlink cursor-pointer">SHOP</div>
           </article>
         </div>
         <div className="right flex-[50%] flex justify-end ">
