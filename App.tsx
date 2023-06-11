@@ -13,16 +13,16 @@ import Navbar from './src/Components/Shared/Navbar'
 function App() {
   return (
     <BrowserRouter >
-    {/* <div className="Appx bg-[white] "> */}
-    {/* <MenuDetails/> */}
     <Routes>  
     <Route path='/' element={<Home/>} />
-    <Route path='MenuDetails' element={<MenuDetails/>} />
+    <Route path='MenuDetails' element={
+      <div className="Appx bg-[white] px-[2em] ">
+    <MenuDetails/>
+    </div>
+    } />
       </Routes>
-      {/* <Home/> */}
-    {/* </div> */}
     </BrowserRouter>
-  )
+  ) 
 }
 
 export default App
