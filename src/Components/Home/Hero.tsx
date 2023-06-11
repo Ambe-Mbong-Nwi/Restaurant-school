@@ -16,7 +16,7 @@ const Hero = () => {
       </div>
       <div className="hero-border border-b border-[#eeeee] opacity-30  "></div>
       </section>
-        {/* desktop home screen  */}
+        {/* desktop home screen b */}
       <section className="desktop hidden lg:block ">
       <h1 className="hero-head text-[20em] text-center  text-[#F4E6C0] leading-[0.75em] 
      font-['Rakkas']  pt-[0.65em] pb-[1.5em]   ">
