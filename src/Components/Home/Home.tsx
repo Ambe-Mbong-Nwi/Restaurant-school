@@ -18,6 +18,7 @@ const Home = () => {
         {/* <Reviews/> */}
         <Follow/>
         <Location/>
+        
         {/* <AnyReactComponent/> */}
     </main>
   )
