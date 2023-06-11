@@ -14,12 +14,15 @@
         margin: 5px 2.5em;
     }
     .top-details{
-        background-image: url("../../../public/assets/shop.jpg");
+     background-image: url("../../../public/assets/shop.jpg");
      background-repeat: no-repeat;
      background-size: cover;
      height: 85vh;
      width: 100%;
      top:6em;
+    }
+   .maini-menu-div :hover{
+        color:black;
     }
     /* .map{
         display: grid;
