@@ -36,7 +36,8 @@ const Menu=(props:any)=>{
              }
     return(
         <main className="menu pb-[1.5em]  " >
-            <section  onClick={choosenMenu}
+        <Link to="MenuDetails" className='text-[black] '  >  
+            <section  
             className="maini-menu-div bg-[#FEFEFE] cursor-pointer
             rounded-[20px] mx-[1.5em] p-[1.5em] ">
                 {/* <p className="menu-type font-[400] text-[black] "> {props.type} </p> */}
@@ -58,9 +59,7 @@ const Menu=(props:any)=>{
                 </article>
                 </section>
             </section>
-            {menu && ( 
-            <MenuDetails />
-            )}
+            </Link>
         </main>
     )
 }
