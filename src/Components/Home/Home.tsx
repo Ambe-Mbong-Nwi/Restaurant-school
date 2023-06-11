@@ -7,10 +7,15 @@ import Reviews from './Reviews'
 import Follow from './Follow'
 import Location from './Location'
 import AnyReactComponent from '../Shared/Footer'
+import Footer from '../Shared/Footer'
+import Navbar from '../Shared/Navbar'
 
 const Home = () => {
   return (
     <main>
+         
+  
+       <Navbar/>
         <Hero/>
         <Seller/>
         {/* <Popular/> */}
@@ -18,6 +23,7 @@ const Home = () => {
         {/* <Reviews/> */}
         <Follow/>
         <Location/>
+        <Footer/>
         {/* <AnyReactComponent/> */}
     </main>
   )
