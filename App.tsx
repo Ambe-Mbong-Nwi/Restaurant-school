@@ -16,9 +16,9 @@ function App() {
     <Routes>  
     <Route path='/' element={<Home/>} />
     <Route path='MenuDetails' element={
-      <div className="Appx bg-[white] px-[2em] ">
+      // <div className="Appx bg-[white] px-[2em] ">
     <MenuDetails/>
-    </div>
+    // </div>
     } />
       </Routes>
     </BrowserRouter>

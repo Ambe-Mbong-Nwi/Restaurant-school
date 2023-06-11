@@ -12,5 +12,5 @@ export const Data =[
     { src:burger3,name:"Kwakoko",name1:"+Canda Sauce",price:"2000XAF"},    
     { src:burger4, name:"Njama-Njama",name1:"+Fufu Corn", price:"1500XAF" },  
     { src:burger5, name:"Spaghetti", name1:"Sauté", price:"1000XAF"},
-    { src:burger6, name:"Water.Fufu",name1:"+Eru ", price:"2000XAF" }  
+    { src:burger6, name:"Water.Fufu",name1:"+Eru ", price:"2000XAF" },  
 ]  

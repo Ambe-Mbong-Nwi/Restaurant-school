@@ -11,8 +11,8 @@ const Hero = () => {
      font-['Rakkas']  pt-[1.3em] pb-[1.5em]  relative ">
         Delicious Burgers
       </h1>
-      <div className="hero-img-div ">
-        <img src={burger} alt="" className="hero-img w-[25em] absolute top-[11em] " />
+      <div className="hero-img-div md:my-[12em] ">
+        <img src={burger} alt="" className="hero-img  md:w-[25em] absolute top-[11em] " />
       </div>
       <div className="hero-border border-b border-[#eeeee] opacity-30  "></div>
       </section>

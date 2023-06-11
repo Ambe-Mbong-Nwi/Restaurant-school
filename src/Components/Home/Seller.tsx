@@ -29,10 +29,7 @@ const Menu=(props:any)=>{
              const [menu, setMenu] = useState(null);
              const choosenMenu=(data:any)=>{
                  setMenu(data)
-                 console.log('====================================');
-                 console.log(data);
-                 console.log('====================================');
-                 alert("yo bruh")
+
              }
     return(
         <main className="menu pb-[1.5em]  " >
@@ -45,7 +42,7 @@ const Menu=(props:any)=>{
                 <h1 className="menu-nam text-[2em] font-[800] text-[#121212]">{props.name1} </h1>
                 <div className="menu-img-div my-[0.5em] ">
                     <img src={props.src} alt={props.name} 
-                    className="menu-img h-[15em] w-full rounded-[20px] " />
+                    className="menu-img  md:h-[25em] lg:h-[15em] w-full rounded-[20px] " />
                 </div>
                 <section className="menu-bottom flex justify-between ">   
              
